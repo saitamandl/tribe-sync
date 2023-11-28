@@ -1,6 +1,6 @@
-# turbo-fam-track
+# Turbo Family Tracker
 
-Manage household groceries, expenses, tasks, and chores. Stay turbo!!
+Keep track of household groceries, expenses, tasks, and chores. Stay turbo!!
 
 ## Features
 
