@@ -48,6 +48,22 @@ Associative table for `users` and `groups`
 | `fk_groups_id` | String    |    foreign_key     |
 | `fk_users_id`  | String    |    foreign_key     |
 
+#### `junction_users_groceries`
+Associative table for `users` and `groceries`
+
+|    Column name    | Data Type | Additional Comment |
+|:-----------------:|:----------|:------------------:|
+| `fk_groceries_id` | String    |    foreign_key     |
+|   `fk_users_id`   | String    |    foreign_key     |
+
+#### `junction_users_expenses`
+Associative table for `users` and `expenses`
+
+|   Column name    | Data Type | Additional Comment |
+|:----------------:|:----------|:------------------:|
+| `fk_expenses_id` | String    |    foreign_key     |
+|  `fk_users_id`   | String    |    foreign_key     |
+
 #### `junction_users_elements`
 Associative table for `users` and `elements`/modules 
 Which will determine which user has permission to do what.
