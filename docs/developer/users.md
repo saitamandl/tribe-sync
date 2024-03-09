@@ -6,8 +6,11 @@
 - User will be able to change password
 - User will be able to delete account
 - User can create [group](./groups.md)(s)
+  - Admin User can create password for groups
 - User can create Multiple [Grocery](./groceries.md) lists
+  - Admin User can create password for groups
 - User can add [expenses](/expenditure.md)
+  - Admin User can create password for groups
 
 ## Dev Story
 
