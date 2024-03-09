@@ -11,9 +11,9 @@
 
 ## Dev Story
 
-User module requires a lot of data to be stored. The data specification is in the following [subsections](#Tables)
+The data specification is in the following [subsections](#Tables)
 > [!CAUTION]
-> Recheck all the datatypes are exact RDBMS data type.
+> Recheck all the datatypes if they are the correct RDBMS data type.
 
 ### Tables
 
@@ -28,6 +28,7 @@ Table specification: list of columns excluding the default [columns](./databse.m
 |   `email`   | String    |       unique       |
 
 #### `user_information` Table
+Other information of the users
 
 | Column name  | Data Type | Additional Comment |
 |:------------:|:----------|:------------------:|
@@ -37,6 +38,7 @@ Table specification: list of columns excluding the default [columns](./databse.m
 | `fk_user_id` | String    |    foreign_key     |
 
 #### `junction_users_groups`
+Associative table for `users` and `groups`
 
 |  Column name   | Data Type | Additional Comment |
 |:--------------:|:----------|:------------------:|
@@ -44,7 +46,8 @@ Table specification: list of columns excluding the default [columns](./databse.m
 | `fk_users_id`  | String    |    foreign_key     |
 
 #### `junction_users_elements`
-Holds permission for the users
+Associative table for `users` and `elements`/modules 
+Which will determine which user has permission to do what.
 
 |   Column name    | Data Type | Additional Comment |
 |:----------------:|:----------|:------------------:|
