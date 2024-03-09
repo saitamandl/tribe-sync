@@ -5,7 +5,7 @@
 - User will be able to register and log in
 - User will be able to change password
 - User will be able to delete account
-- User can create [group](./group.md)(s)
+- User can create [group](./groups.md)(s)
 - User can create Multiple [Grocery](./groceries.md) lists
 - User can add [expenses](/expenditure.md)
 
