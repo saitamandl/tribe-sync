@@ -44,4 +44,5 @@ All the table should contain the following columns.
 
 ### Tools
 
-- [Liquibase](https://www.liquibase.org/) will be used to provide multi RDBMS support.
+- [Liquibase](https://www.liquibase.org/) will be used to provide multi RDBMS support and creates a separate layer for administrative/schema changes. 
+e.g. application will not be able to create, update or delete any tables.
