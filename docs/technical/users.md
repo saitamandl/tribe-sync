@@ -1,4 +1,4 @@
-# User
+# Users
 
 ## User Story
 
