@@ -5,7 +5,7 @@
 - Groups can be created 
 - Group name has to be unique per group
 - Groups can have password set by an [admin](./users.md)
-- Groups can have multiple [Grocery](./groceries.md) lists
+- Groups can have multiple [Grocery](./grocery_lists) lists
 - Groups can have [expenses](/expenditure.md)
 - Permission:
   - Groups
