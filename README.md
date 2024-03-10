@@ -11,7 +11,7 @@ Keep track of household groceries, expenses, tasks, and chores. Stay turbo!!
 |:--------------------------------------------------------------:|:------------------:|
 |          [Multi User Support](./docs/developer/users)          |       :bulb:       |
 |       [Multi Group Support](./docs/developer/groups.md)        |       :bulb:       |
-|              [Grocery List](./docs/groceries.md)               |       :bulb:       |
+|         [Grocery List](./docs/developer/groceries.md)          |       :bulb:       |
 |    [Upload/Capture Receipt Image](./docs/receipt_image.md)     |       :bulb:       |
 |              [Expenditure](./docs/expenditure.md)              |       :bulb:       |
 |        [Split Expenditure](./docs/expenditure.md#Split)        |       :bulb:       |
