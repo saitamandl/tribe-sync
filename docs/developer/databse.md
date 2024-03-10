@@ -40,7 +40,7 @@ All the table should contain the following columns.
 | `last_updated_on_{time_zone}` | Time      |                                       |
 |         `created_by`          | String    | `pk_user_id` -> foreign key; not null |
 |       `last_updated_by`       | String    | `pk_user_id` -> foreign key; not null |
-|          `is_enable`          | boolean   |               optional                |
+|          `is_active`          | boolean   |               optional                |
 
 ### Tools
 
