@@ -12,17 +12,17 @@
     - Admin will have the ability to choose which users in the group can
       - Add/change password of the group
       - Update group name/description
-      - Set group status inactive
+      - Deactivate group
       - Permanently delete the group
-      - Inactive groups will be visible by all the groups members in the inactive tab of the user
+      - Deactivated groups will be visible by all the groups members in the deactivated tab of the user
   - Grocery lists
     - Grocery lists will be visible to all the user in the group and will be able to check off items of the lists
     - Admin will have the ability to choose which users in the group can
       - Create grocery lists
       - Add/remove new item in the lists
-      - Set grocery lists status inactive
+      - Deactivate grocery lists
       - Permanently delete grocery lists
-      - Inactive grocery lists will be visible by all the groups members in the inactive tab of the group
+      - Deactivated grocery lists will be visible by all the groups members in the deactivated tab of the group
     
 ## Dev Story
 A default group name `personal` will be created for Every user. All the grocery lists and expenses has to be part of a group.
