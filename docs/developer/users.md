@@ -4,13 +4,11 @@
 
 - User will be able to register and log in
 - User will be able to change password
-- User will be able to delete account
+- User will be able to deactivate their account
+- User will be able to permanently delete their account
 - User can create [group](./groups.md)(s)
-  - Admin User can create password for groups
-- User can create Multiple [Grocery](./groceries.md) lists as part of group or personal
-  - User can create password for all or individual the Grocery lists in the personal
-  - User can create password for  all or individual Grocery lists in any groups
-- User can add [expenses](/expenditure.md) inside the group or personal
+- User can create Multiple [Grocery](./grocery_lists)  lists for personal or as part of group
+- User can add [expenses](/expenditure.md) for personal or inside the group
   - User can create password for all or individual the expenses in the personal
   - User can create password for  all or individual expenses in any groups
 
@@ -42,7 +40,6 @@ Other information of the users
 |:------------:|:----------|:------------------:|
 | `first_name` | String    |         -          |
 | `last_name`  | String    |         -          |
-|  `relation`  | String    |         -          |
 | `fk_user_id` | String    |    foreign_key     |
 
 #### `junction_users_groups`
