@@ -9,8 +9,10 @@
 - Groups can have [expenses](/expenditure.md)
 
 ## Dev Story
+A default group name `personal` will be created for Every user. All the grocery lists and expenses has to be part of a group.
 
 The data specification is in the following [subsections](#Tables)
+
 > [!CAUTION]
 > Recheck all the datatypes if they are the correct RDBMS data type.
 
@@ -53,4 +55,3 @@ Associative table for `groups` and `expenses`
 | `fk_expenses_id` | String    |    foreign_key     |
 |  `fk_groups_id`  | String    |    foreign_key     |
 
-https://stackoverflow.com/questions/55140090/pytesseract-reading-receipt
