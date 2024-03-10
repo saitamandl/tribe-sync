@@ -2,12 +2,28 @@
 
 ## User Story
 
-- Groups can be created
-- Groups can have password set by admin [User](./users.md)
-- Groups can be deleted
+- Groups can be created 
+- Group name has to be unique per group
+- Groups can have password set by an [admin](./users.md)
 - Groups can have multiple [Grocery](./groceries.md) lists
 - Groups can have [expenses](/expenditure.md)
-
+- Permission:
+  - Groups
+    - Admin will have the ability to choose which users in the group can
+      - Add/change password of the group
+      - Update group name/description
+      - Set group status inactive
+      - Permanently delete the group
+      - Inactive groups will be visible by all the groups members in the inactive tab of the user
+  - Grocery lists
+    - Grocery lists will be visible to all the user in the group and will be able to check off items of the lists
+    - Admin will have the ability to choose which users in the group can
+      - Create grocery lists
+      - Add/remove new item in the lists
+      - Set grocery lists status inactive
+      - Permanently delete grocery lists
+      - Inactive grocery lists will be visible by all the groups members in the inactive tab of the group
+    
 ## Dev Story
 A default group name `personal` will be created for Every user. All the grocery lists and expenses has to be part of a group.
 
@@ -24,7 +40,7 @@ Table specification: list of columns excluding the default [columns](./databse.m
 
 |  Column name  | Data Type | Additional Comment |
 |:-------------:|:----------|:------------------:|
-|  `groupname`  | String    |       unique       |
+|  `groupname`  | String    |  unique per group  |
 |  `password`   | String    |   md5 / optional   |
 | `description` | String    |         -          |
 
