@@ -2,6 +2,8 @@
 
 Keep track of household groceries, expenses, tasks, and chores. Stay turbo!!
 
+# [User Story](./docs/end-user/)
+
 ## Features
 
 | Legends | :white_check_mark: Supported | :construction: Under Development | :bulb: Planned | :heavy_minus_sign: Maybe | :heavy_multiplication_x: Dropped | :x: Not Supported |
